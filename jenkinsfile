@@ -1,0 +1,17 @@
+pipeline {
+	agent{label 'mac04.ci.jenkins'}
+	stages {
+     stage(‘Build’) {
+     	steps {
+	}
+	}
+	stage (‘Test’) {
+    	steps {
+    	}
+	}
+	stage (‘Deploy’) {
+	steps {
+    	}
+      }
+   }
+}
